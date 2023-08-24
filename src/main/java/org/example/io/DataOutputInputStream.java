@@ -10,7 +10,7 @@ import java.io.*;
  */
 public class DataOutputInputStream {
     public static void main(String[] args) throws IOException {
-        File file = new File("D:\\桌面文件\\文本\\秋招\\开发\\后端\\test\\src\\main\\java\\org\\example\\io\\example4.txt");
+        File file = new File("D:\\桌面文件\\文本\\秋招\\开发\\后端\\java-basic\\src\\main\\java\\org\\example\\io\\example4.txt");
 
         System.out.println(file.getAbsolutePath());
 

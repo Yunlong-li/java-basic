@@ -10,7 +10,7 @@ import java.io.*;
  */
 public class FileReaderWriter {
     public static void main(String[] args) throws IOException {
-        String fileName = "D:\\桌面文件\\文本\\秋招\\开发\\后端\\test\\src\\main\\java\\org\\example\\io\\example2.txt";
+        String fileName = "D:\\桌面文件\\文本\\秋招\\开发\\后端\\java-basic\\src\\main\\java\\org\\example\\io\\example2.txt";
         File file = new File(fileName);
 
         FileWriter fos = new FileWriter(file);

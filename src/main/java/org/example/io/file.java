@@ -20,12 +20,12 @@ public class file {
 
 
 //        方式二
-//        String fileName = "D:\\桌面文件\\文本\\秋招\\开发\\后端\\test\\src\\main\\java\\org\\example\\io\\example.txt";
+//        String fileName = "D:\\桌面文件\\文本\\秋招\\开发\\后端\\java-basic\\src\\main\\java\\org\\example\\io\\example.txt";
 //        File file = new File(fileName);
 
 
 //        方式三
-        String parentPath = "D:\\桌面文件\\文本\\秋招\\开发\\后端\\test\\src\\main\\java\\org\\example\\io\\";
+        String parentPath = "D:\\桌面文件\\文本\\秋招\\开发\\后端\\java-basic\\src\\main\\java\\org\\example\\io\\";
         String fileName = "example.txt";
 
         File parentFile = new File(parentPath);
