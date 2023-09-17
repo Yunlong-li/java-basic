@@ -6,13 +6,10 @@ import java.util.Date;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-//        File file = new File("D:/111/renwu/书籍/");
+public class App {
+    public static void dateLearning() {
+        //        File file = new File("D:/111/renwu/书籍/");
 //        String[] filelist = file.list();
 //        for(String cert:filelist){
 //            System.out.println(cert);
@@ -25,5 +22,9 @@ public class App
         String dateString = formatter.format(date);
         System.out.println("当前时间：" + dateString);
         System.out.println(dateString.length());
+    }
+
+    public static void main(String[] args) {
+//        dateLearning();
     }
 }
